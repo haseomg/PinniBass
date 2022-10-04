@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">PinniBass</string>
+
+
+    <string name="quiz1">
+        C는?\n
+        \n
+        1. 도\n
+        2. CM\n
+        3. 도, CM
+    </string>
+    <string name="quiz2">
+        이 중 가장 느린 속도는?\n
+        \n
+        1. 100bpm\n
+        2. 60bpm\n
+        3. 80bpm
+    </string>
+    <string name="quiz3">
+        메트로놈이란?\n
+        \n
+        1. 손가락 번호를 나눠서 연습하는 한 방법\n
+        2. 박자를 설정해서 연습할 수 있는 것
+    </string>
+    <string name="quiz4">
+        Gm key와 BM key는 나란한조인가요?\n
+        \n
+        1. YES\n
+        2.  NO
+    </string>
+    <string name="quiz5">
+        재즈는 느린 음악인가요?\n
+        \n
+        1. YES\n
+        2.  NO
+    </string>
+    <string name="quiz6">
+        다카포의 뜻은?\n
+        \n
+        1. 처음으로 돌아간다.\n
+        2. 카포로 돌아간다.\n
+        3. 카포를 장착하지 않는다.
+    </string>
+    <string name="quiz7">
+        비브라토는 무엇입니까?\n
+        \n
+        1. 음을 밀어 연주하는 기법.\n
+        2. 음을 떨리게 연주하는 기법.
+    </string>
+    <string name="quiz8">
+        밴드라고 부르는 건, 멤버수가 기준인가요?\n
+        \n
+        1. 네\n
+        2. 아니요
+    </string>
+    <string name="quiz9">
+        이제 3화음 정도는 눈 감고도 아시죠?\n
+        Gbdim의 구성음으로 옳은 것을 골라주세요.\n
+        \n
+        1. 솔b 시b 레b\n
+        2. 솔b 시b 레bb\n
+        3. 솔b 시bb 레b\n
+        4. 솔b 시bb 레bb
+    </string>
+    <string name="quiz10">
+        악보를 읽을 때 중요한 것은?\n
+        \n
+        1. 베이스 안고 있기\n
+        2. 거울\n
+        3. 악보의 상태
+    </string>
+    <string name="quiz11">
+        이 곡들 중 Major key인 노래는?\n
+        \n
+        1. 아이유 - Blueming\n
+        2. 아이콘 - 취향저격\n
+        3. 델리스파이스 - 고백\n
+        4. YB - 사랑했나봐\n
+        5. 이문세 - 소녀\n
+        6. 윤하 - 비밀번호 486\n
+        7. 없습니다.
+    </string>
+    <string name="quiz12">
+        AM key와 F#m key는 나란한조인가요?\n
+        \n
+        1. 네\n
+        2. 아니오\n
+    </string>
+    <string name="quiz13">
+        발라드, 힙합, 트로트 이런 명칭들은 장르인가요?\n
+        \n
+        1. 네 맞습니다.\n
+        2. 아니요 특징입니다.
+    </string>
+    <string name="quiz14">
+        곡을 카피할 때 입으로 불러봐도 되나요?\n
+        \n
+        1. 아니요 방해됩니다.\n
+        2. 네 더욱 좋습니다.\n
+        3. 굳이 추천하지는 않습니다.
+    </string>
+    <string name="quiz15">
+        보사노바는 대중적인 장르인가요?\n
+        \n
+        1. 네 노래에서 많이 들어본 것 같아요.\n
+        2. 아니요. 보사노바가 뭐죠?
+    </string>
+    <string name="quiz16">
+        베이스 곡만 카피하며 악보를 그려봤는데, 기타도 카피할 수 있을까요?\n
+        \n
+        1. 아니요. 할 수 없습니다.\n
+        2. 네. 할 수  있습니다.
+    </string>
+    <string name="quiz17">
+        미로는 팝송을 좋아하나요?\n
+        \n
+        1. 아니요 미로 팝송 안 좋아하는데요?\n
+        2. 넹 추천해준 적 있어요!\n
+        3. 미로는 노래 안.좋.아.합.니.다.^^
+    </string>
+    <string name="quiz18">
+        오스카는 아이유를 좋아하나요?\n
+        \n
+        1. 오스카는 배우만 좋아합니다.\n
+        2. 오스카는 정통 힙합 아티스트만 좋아합니다.\n
+        3. 네.\n
+        4. 오스카는 제이든만 좋아합니다.
+    </string>
+    <string name="quiz19">
+        제이든은 베이스를 연주하실 수 있나요?\n
+        \n
+        1. 네 Possible 100% 무조건 가능하신 부분입니다.\n
+        2. 아니요. 피아노를 더 잘 연주하실 것입니다.\n
+        3. 여쭤본 적은 없지만.. 어떻게 다른 악기를 하십니까..?
+    </string>
+
+
+    <string name="newTest1">
+        1. 베이스 기타의 재료 중 나무가 있나요?\n
+        \n
+        (1) 네\n
+        (2) 아니오
+    </string>
+    <string name="newTest2">
+        2. [파]를 영어로 말하면?\n
+        \n
+        (1) B\n
+        (2) F
+    </string>
+    <string name="newTest3">
+        3. 곡을 카피할 때 중요하지 않은 것은?\n
+        \n
+        (1) 곡의 bpm\n
+        (2) 줄의 마디수를 4마디로 해주는 것\n
+        (3) 원곡의 이름과 아티스트
+    </string>
+    <string name="newTest4">
+        4. 프렛을 잡아주는 손가락은 4개를 다 이용하면 좋나요?\n
+        \n
+        (1) 네\n
+        (2) 아니오\n
+    </string>
+    <string name="newTest5">
+        5. 크로메틱을 할 때 좋지않은 순서는?\n
+        \n
+        (1) 비효율적인 순서\n
+        (2) 없습니다
+    </string>
+    <string name="newTest6">
+        6. 8분의 6박자가 박자표로 적혀있습니다. 옳은 것은?\n
+        \n
+        (1) 한 줄에 8분음표가 6개 있습니다.\n
+        (2) 한 마디에 8분음표가 6개 있습니다.
+    </string>
+    <string name="newTest7">
+        7. 베이스의 음역대로 맞는 것은?\n
+        \n
+        (1) 고음\n
+        (2) 저음
+    </string>
+
+    <string name="testEnd">
+        시험이 종료되었습니다!\n총 점수 : " + score
+    </string>
+
+
+    <string name="beginTest1">
+        1. 뮤트를 할 때 사용하는 손은?\n
+        \n
+        (1) 왼 손\n
+        (2) 오른 손\n
+        (3) 양 손
+    </string>
+    <string name="beginTest2">
+        2. 메트로놈에서 템포만 설정할 수 있나요?\n
+        \n
+        (1) 네\n
+        (2) 아니오
+    </string>
+    <string name="beginTest3">
+        3. [D.S(달세뇨)]는 무슨 뜻입니까?\n
+        \n
+        (1) 세뇨로 돌아가서 연주한다.\n
+        (2) 처음으로 돌아가서 연주한다.
+    </string>
+    <string name="beginTest4">
+        4. [Chord Tone(코드톤)]은 무엇인가요?\n
+        \n
+        (1) 코드의 구성음\n
+        (2) 코드의 중요한 음
+    </string>
+    <string name="beginTest5">
+        5. [개방현]은 무엇을 의미하나요?\n
+        \n
+        (1) 현을 잡았다가 놓는다.\n
+        (2) 현을 잡지 않은 것이다.
+    </string>
+    <string name="beginTest6">
+        6. 크로메틱을 연습할 때 1번줄에서 2번줄로 올라온다면 검지에서 중지로 올라올까요?\n
+        \n
+        (1) 네\n
+        (2) 아니오
+    </string>
+    <string name="beginTest7">
+        7. Triad 코드의 뜻은?\n
+        \n
+        (1) 5개의 음\n
+        (2) 3화음
+    </string>
+    <string name="beginTest8">
+        8. Cm7(b5)의 구성음으로 올바른 것은?\n
+        \n
+        (1) 도 미b 솔 시b\n
+        (2) 도 미b 솔b 시b
+    </string>
+    <string name="beginTest9">
+        9. 베이스를 연주하면 손목에 자극이 가나요?\n
+        \n
+        (1) 아니요\n
+        (2) 네
+    </string>
+    <string name="beginTest10">
+        10. 뮤트로 연주를 할 수 있을까요?\n
+        \n
+        (1) 네\n
+        (2) 아니오
+    </string>
+
+
+    <string name="interTest1">
+        1. 그루브를 향상시키고 싶을 때 옳지 않은 것은?\n
+        \n
+        (1) 쉼표가 나올 때 잘 쉬어주기\n
+        (2) 박자를 쪼개주는 연습하기\n
+        (3) 몸으로 리듬타기\n
+        (4) 코드 연습 많이해주기\n
+    </string>
+    <string name="interTest2">
+        2. 풀링오프 기술로 옳은 것은?\n
+        \n
+        (1) 지판에서 두 프렛을 잡아주고, 왼손 손가락으로 위 프렛에서 끊어서 전 프렛으로 돌아가기\n
+        (2) 프렛을 하나잡고 다음 위 프렛에 손가락으로 눌러주기
+    </string>
+    <string name="interTest3">
+        3. 크로메틱은 다른 줄로도 이동하며 가능할까요?\n
+        \n
+        (1) 네\n
+        (2) 아니요
+    </string>
+    <string name="interTest4">
+        4. 비브라토는 음의 [  ]을 표현하는 것입니다.\n
+        \n
+        (1) [끊김]\n
+        (2) [떨림]\n
+        (3) [밀림]
+    </string>
+    <string name="interTest5">
+        5. 장르를 구분할 때 중요한 것으로 옳지 않은 것은?\n
+        \n
+        (1) 반주\n
+        (2) 마디수\n
+        (3) 리듬
+    </string>
+    <string name="interTest6">
+        6. [고스트 노트(X 뮤트)]를 연주할 때의 특징으로 옳은 것은?\n
+        \n
+        (1) 음과 함께 끊어 연주한다.\n
+        (2) 음 없이 끊어 연주한다.
+    </string>
+    <string name="interTest7">
+        7. 펜타토닉 스케일의 구성음으로 옳은 것은?\n
+        \n
+        (1) Em Penta - 미 솔 라 시 레\n
+        (2) AM Penta - 도 레 미 솔# 라\n
+        (3) Bm Penta - 시 레 파# 솔 라
+    </string>
+    <string name="interTest8">
+        8. [C Phrygian] 스케일의 구성음으로 옳은 것은?\n
+        \n
+        (1) 도 레b 미b 파 솔 라b 시b\n
+        (2) 도 레 미b 파 솔b 라 시b
+    </string>
+    <string name="interTest9">
+        9. Gdim7의 구성음은 [솔 시b 레b 솔b]인가요?\n
+        \n
+        (1) 네\n
+        (2) 아니요
+    </string>
+    <string name="interTest10">
+        10. 쌈바는 특유의 리듬을 갖고 있나요?\n
+        \n
+        (1) 아니요\n
+        (2) 네
+    </string>
+
+    <string name="btnClick1">1</string>
+    <string name="btnClick2">2</string>
+    <string name="btnClick3">3</string>
+    <string name="btnClick4">4</string>
+    <string name="btnClick5">5</string>
+    <string name="btnClick6">6</string>
+    <string name="btnClick7">7</string>
+
+
+</resources>

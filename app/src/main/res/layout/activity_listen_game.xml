@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListenGame">
+
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="380dp"
+        android:backgroundTint="#FDFCFC"
+        android:text="▶︎"
+        android:textSize="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listenGameMain"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/doBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F67B77"
+        android:text="도"
+        app:layout_constraintBottom_toTopOf="@+id/faBtn"
+        app:layout_constraintEnd_toStartOf="@+id/reBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn" />
+
+    <Button
+        android:id="@+id/reBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#F1B151"
+        android:text="레"
+        app:layout_constraintBottom_toTopOf="@+id/solBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn" />
+
+    <Button
+        android:id="@+id/miBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F8E961"
+        android:text="미"
+        app:layout_constraintBottom_toTopOf="@+id/laBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/reBtn"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn" />
+
+    <Button
+        android:id="@+id/faBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#B9E686"
+        android:text="파"
+        app:layout_constraintBottom_toTopOf="@+id/siBtn"
+        app:layout_constraintEnd_toStartOf="@+id/solBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doBtn" />
+
+    <Button
+        android:id="@+id/solBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#A2D5FF"
+        android:text="솔"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playBtn"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/laBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#92A2F8"
+        android:text="라"
+        app:layout_constraintBottom_toTopOf="@+id/doBtn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/solBtn"
+        app:layout_constraintTop_toBottomOf="@+id/miBtn" />
+
+    <Button
+        android:id="@+id/siBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:backgroundTint="#F0B8FA"
+        android:text="시"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/doBtn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solBtn"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Button
+        android:id="@+id/doBtn2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#D3CACA"
+        android:text="도"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/siBtn"
+        app:layout_constraintTop_toBottomOf="@+id/solBtn"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Button
+        android:id="@+id/listenBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FDABC6"
+        android:text="게임 종료"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doBtn2"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/listenGameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="청음 게임을 시작합니다!"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomQuiz">
+
+    <Button
+        android:id="@+id/quizBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="62dp"
+        android:backgroundTint="#A4D5EC"
+        android:text="종료"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/randomQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="랜덤 퀴즈를 시작합니다!"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005" />
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="390dp"
+        android:layout_height="275dp"
+        android:text="퀴즈 내용을 보여줄 공간입니다."
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/twoBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomQuiz"/>
+
+    <Button
+        android:id="@+id/oneBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnClick1"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/twoBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/twoBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnClick2"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/threeBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnClick3"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/twoBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Button
+        android:id="@+id/fourBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:text="@string/btnClick4"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sevenBtn"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/fiveBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnClick5"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/sixBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/btnClick6"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/sevenBtn"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/btnClick7"
+        android:textSize="20sp"
+        android:onClick="btnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toEndOf="@+id/sixBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

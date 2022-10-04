@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testroom">
+
+    <TextView
+        android:id="@+id/testRoom"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:text="시험 방"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#E65367D8"
+        android:textSize="35sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <Button
+        android:id="@+id/newTest"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="입문자 수료"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/beginTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testRoom" />
+
+    <Button
+        android:id="@+id/beginTest"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/white"
+        android:text="초급자 수료"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/interTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newTest" />
+
+    <Button
+        android:id="@+id/interTest"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/white"
+        android:text="중급자 수료"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/testRoomBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beginTest" />
+
+
+
+    <Button
+        android:id="@+id/testRoomBack"
+        android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#A4D5EC"
+        android:text="뒤로"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/interTest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

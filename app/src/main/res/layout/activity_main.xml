@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainName"
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/mainGrade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toEndOf="@+id/mainProfile"
+        app:layout_constraintTop_toBottomOf="@+id/volume" />
+
+    <TextView
+        android:id="@+id/mainGrade"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:hint="등급"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/gameClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/mainProfile"
+        app:layout_constraintTop_toBottomOf="@+id/mainName" />
+
+    <Button
+        android:id="@+id/gameClick"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#A4D5EC"
+        android:text="게임 방"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/studyClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/studyClick"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#A4D5EC"
+        android:text="공부 방"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/testClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameClick" />
+
+    <Button
+        android:id="@+id/testClick"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#A4D5EC"
+        android:text="시험 방"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studyClick"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="200dp"
+        android:text="HOME"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#6495ED"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <ImageView
+        android:id="@+id/volume"
+        android:layout_width="48dp"
+        android:layout_height="65dp"
+
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/soundon"
+        app:layout_constraintBottom_toTopOf="@+id/mainName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/home"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram @haseomg"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testClick" />
+
+    <ImageView
+        android:id="@+id/mainProfile"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@mipmap/ic_launcher_round"
+
+        app:layout_constraintBottom_toTopOf="@+id/gameClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <ImageView
+        android:id="@+id/mainProfileSet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/setting"
+        app:layout_constraintBottom_toBottomOf="@+id/mainProfile"
+        app:layout_constraintEnd_toEndOf="@+id/mainProfile"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="@+id/mainProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
